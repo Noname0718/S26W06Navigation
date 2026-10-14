@@ -21,7 +21,7 @@ import androidx.navigation3.ui.NavDisplay
 import kotlinx.serialization.Serializable
 
 import kr.ac.kumoh.ce.s20220565.s26w06navigation.ui.theme.S26W06NavigationTheme
-import java.util.Map.entry
+
 
 sealed interface PokemonRoute : NavKey {
     @kotlinx.serialization.Serializable
