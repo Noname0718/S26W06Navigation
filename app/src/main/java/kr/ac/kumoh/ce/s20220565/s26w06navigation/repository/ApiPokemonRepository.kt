@@ -4,7 +4,6 @@ import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.supervisorScope
 import kotlinx.serialization.json.Json
-import kr.ac.kumoh.ce.s20220565.s26w06navigation.api.PokeApi
 import kr.ac.kumoh.ce.s20220565.s26w06navigation.model.Pokemon
 import okhttp3.MediaType.Companion.toMediaType
 import retrofit2.Retrofit
