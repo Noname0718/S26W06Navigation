@@ -51,6 +51,7 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
     debugImplementation(libs.androidx.compose.ui.tooling)
+
     // Navigation 3
     // https://developer.android.com/jetpack/androidx/releases/navigation3?hl=ko
     val nav3Version = "1.2.0"
@@ -59,4 +60,15 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-navigation3:2.11.0")
     implementation("androidx.compose.material3.adaptive:adaptive-navigation3:1.3.0")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.11.0")
+
+    // Retrofit 3
+    // https://github.com/lysine-dev/retrofit/releases
+    implementation("com.squareup.retrofit2:retrofit:3.0.0")
+    implementation("com.squareup.retrofit2:converter-kotlinx-serialization:3.0.0")
+
+    // AsyncImage
+    // https://github.com/coil-kt/coil/blob/main/README-ko.md
+    // https://github.com/coil-kt/coil/releases
+    implementation("io.coil-kt.coil3:coil-compose:3.6.3")
+    implementation("io.coil-kt.coil3:coil-network-okhttp:3.6.3")
 }
