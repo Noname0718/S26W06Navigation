@@ -4,7 +4,7 @@ import androidx.navigation3.runtime.NavKey
 import kotlinx.serialization.Serializable
 
 sealed interface PokemonRoute : NavKey {
-    @kotlinx.serialization.Serializable
+    @Serializable
     data object PokemonList : PokemonRoute
 
     @Serializable
